@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Devcamp-vue-101/",
+  base: "/animalpower/",
   plugins: [vue()],
   resolve: {
     alias: {

@@ -6,6 +6,7 @@
    <div
       class="relative h-60 w-60 rounded-full overflow-hidden bg-white mx-auto border-gray-700 border-2"
     >
+    <img :src="image" alt="">
       <div class="h-full bg-cover bg-center bg-no-repeat" :style="getUrlImage(image)"></div>
       />
 
@@ -53,7 +54,7 @@ export default {
   {
     getUrlImage(imagePath)
     {
-     return { 'background-image': 'url("./src/' + imagePath + '")' };
+     return { 'background-image': 'imagePath' };
     },
   }
 };
